@@ -1,0 +1,29 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-cgb-block-guten-slider {
+	background-color: #c4dfe6;
+}
+
+.editor--slides-container {
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	width: 100%;
+	scroll-snap-type: mandatory;
+	scroll-snap-points-x: repeat(100%);
+	color: #fff;
+	> li {
+		background-color: #07575b;
+		display: inline-flex;
+		align-content: center;
+		justify-content: center;
+
+		width: 100%;
+		font-size: 3rem;
+	}
+}
